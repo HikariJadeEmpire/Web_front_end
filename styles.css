@@ -1,0 +1,117 @@
+.section {
+    text-align: center;
+    min-height: 56rem;
+    height: auto;
+    display: block;
+}
+
+/* .section:hover {
+    color: #212f3d;
+    background-color: #d6dbdf;
+    transition: color 2s ease-in-out, background-color 0.3s ease-in-out;
+} */
+
+.my-text {
+    padding: 20px;
+    padding-left: 90px;
+    text-align: left;
+    min-height: 8px;
+    height: auto;
+    z-index: 1100;
+
+    opacity: 0.4;
+    transition: opacity 0.5s ease;
+}
+
+.my-text:hover {
+    opacity: 1;
+}
+
+.responsive-img-hori {
+    max-width: 800px;
+    height: auto;
+    display: block;
+    padding-top: 50px;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.responsive-img-hori:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+.responsive-img-ver {
+    width: auto;
+    max-height: 700px;
+    display: block;
+    padding-top: 40px;
+    padding-left: 8px;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.responsive-img-ver:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+
+.section .col .responsive-img {
+    display: block; /* Show only in .section > .col */
+}
+
+.top-nav {
+    position: fixed;
+    top: -20px;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #f2f3f4;
+    padding: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1000;
+}
+
+.top-nav a {
+    color: #1c2833;
+    text-decoration: none;
+    margin-left: 20px; /* Add left margin now, since items are on the right */
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: -20px;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #f2f3f4;
+    padding: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    z-index: 1000;
+}
+
+.bottom-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Add left margin now, since items are on the right */
+}
+
+.item-navbar {
+    padding: 10px;
+    padding-top: 8px;
+    align-items: top;
+    text-align: center;
+    z-index: 1100;
+}
