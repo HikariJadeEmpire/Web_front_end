@@ -1,8 +1,11 @@
 # Web design showcases
 
 > Hi, I have 2 versions of web pages design
-> - The first one is <a href=''>```simple_homepage```</a> which is a very simple version of web-design and using ```CSS``` property from ```Bootstrap```.
-> - The second is <a href=''>```interactive_web```</a> which is the self-learning version and ```100%``` self-create ```CSS``` property.
+> - The first one is <a href='https://github.com/HikariJadeEmpire/Web_front_end#simple-homepage-screenshots'>```simple_homepage```</a> which is a very simple version of web-design and using ```CSS``` property from ```Bootstrap```.
+> - The second is <a href='https://github.com/HikariJadeEmpire/Web_front_end#interactive-web-screenshots'>```interactive_web```</a> which is the self-learning version and ```100%``` self-create ```CSS``` property.
+
+<br>
+<br>
 
 <h3>Simple homepage screenshots</h3>
 <hr>
@@ -13,7 +16,7 @@
 
 <h4>Descriptions</h4>
 <hr>
-<b>Programming languages</b> : 
+<b>Programming languages</b> :
 
 ```Javascript``` ```CSS``` ```HTML```
 
